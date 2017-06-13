@@ -279,7 +279,7 @@ void PunchCardDecoder::printAllCardText()
 
 int main()
 {
-	InputFile file("PumchCards.txt");
+	InputFile file("PunchCards.txt");
 	CardData inputCard(file.getIfstream());
 	PunchCardCharacters cardTemplate;
 	PunchCardDecoder decode(inputCard.getCardDeck(), cardTemplate);
